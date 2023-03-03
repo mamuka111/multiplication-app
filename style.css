@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+body{
+    background-image:url(./pink-moon-vaporwave-aesthetic-tablet-x2n475qqug111lqg.jpg);
+    background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+html{
+    font-family: 'Rampart One', cursive;
+}
+.container{
+    width:450px;
+    height: 350px;
+    background-color: aliceblue;
+     display: flex;
+     /* align-items:flex-end; */
+    justify-content:space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap; 
+    border-radius: 30px;
+    align-content: stretch;
+    opacity: 0.5;
+    box-shadow: 0px 2px 5px rgba(138, 43, 226,0.3);;
+}
+.span1{
+    font-size: 20px;
+    color: #000000;
+    color: rgba(0,0,0,1);
+    font-family: 'Rampart One', ;
+ }
+.span2{
+    font-size: 20px;
+      color: rgba(0,0,0,1);
+}
+.div1{
+    width: 100px;
+    height: 30px;
+    /* background-color: rgba(138, 43, 226,0.5); */
+    display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.condition{
+    width: 450px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Rampart One', ;
+    display: flex;
+    justify-content: center;
+}
+.main{
+display: flex;
+justify-content: center;
+}
+.input{
+    border:solid 3px rgba(138,43,226,1);
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Rampart One' ;
+    font-size: 20px;
+    text-align: center;
+}
+.submit{
+width:350px ;
+height: 50px;
+background-color:rgba(138,43,226,1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgba(138,43,226,0.7);
+
+}
+.submit1{
+    font-size: 30px;
+    /* color: #fff; */
+}
+.card{
+    gap:0px;
+    display: flex;
+align-items: stretch;
+justify-content: space-around;
+flex-wrap: wrap;
+flex-direction: row;
+}
+::placeholder{
+    font-family: 'Rampart One' ;
+font-size: 20px;
+}
+.header{
+    display: flex;
+    align-items: baseline;
+    width: 450px;
+    height: 40px;
+    justify-content: space-around;
+}
+.reset{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 7px;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: rgba(138,43,226,0.7);
+}
